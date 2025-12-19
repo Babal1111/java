@@ -38,7 +38,14 @@ public class Datatypes {
         }
         // the given char is digit or not
 
+        char c = 'a';
+        if(){
+            System.out.println("Digit");
+        }
+        else{
+            System.out.println("Not a digit");
+        }
 
-        
+
     }
 }
