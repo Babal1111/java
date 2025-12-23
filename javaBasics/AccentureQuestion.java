@@ -58,6 +58,12 @@ public class AccentureQuestion{
             }
         }
 
+        //// factorial
         
+        int fact =1;
+        for(int i=1;i<=n;i++){
+            fact*=i;
+        }
+        System.err.println("factorial of n is :"+fact);
         }
 }
