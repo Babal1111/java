@@ -62,6 +62,36 @@ public class Loops{
             c++;
         } while (c<='Z');
 
+        System.out.println("\n ------------- FOR LOOP ------------------ \n");
+
+        for(a =1111;a<=1121;a++){
+            System.out.print(a+ " ");
+        }   
+        System.out.println();
+
+        for(a =-1111;a>=-1121;a--){
+            System.out.print(a+ " ");
+        }   
+        System.out.println();
+
+        for(a = -1234;a<=-1223;a++){
+            System.out.print(a+ " ");
+        }   
+        System.out.println();
+        
+        for(c ='d';c<='j';c++){
+            System.out.print(c+ " ");
+        }   
+        System.out.println();
+        for(c ='m';c>='e';c--){
+            System.out.print(c+ " ");
+        }   
+        System.out.println();
+
+        for(c ='r';c<='x';c++){
+            System.out.print(c+ " ");
+        }   
+        System.out.println();
 
     }
 }
