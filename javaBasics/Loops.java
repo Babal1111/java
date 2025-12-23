@@ -1,4 +1,5 @@
 
+
 public class Loops{
     public static void main(String args[]){
         int a = -123;
@@ -92,6 +93,13 @@ public class Loops{
             System.out.print(c+ " ");
         }   
         System.out.println();
+
+        // char ch;
+        // System.out.print("Enter a char :");
+        // Scanner sc = new Scanner(System.in);
+        // ch = sc.nextLine();
+        // for(char c1 ='A', )
+
 
     }
 }
