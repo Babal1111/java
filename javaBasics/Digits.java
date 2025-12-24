@@ -52,6 +52,27 @@ public class Digits{
         }
         }
 
+        // find largest , second largest digits;
+
+        System.out.print("\n ------------- ------------- ---------- \n Enter a number to find its largest and second largest digit: ");
+        x = sc.nextInt();
+        n = x;
+        int max = 0, secMax = 0;
+
+        while(n>0){
+            int rem = n%10;
+            if(rem> max){
+                secMax = max;
+                max = rem;
+            }else if(rem>secMax){
+                secMax = rem;
+
+            }
+            n=n/10;
+
+        }
+        System.out.print("\n The largest digit & second largest digits of this are : "+max+" "+secMax);
+
 
 
     }
