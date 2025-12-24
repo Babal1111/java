@@ -33,5 +33,17 @@ class Prime{
             }
         }
 
+        ///fibbonachii
+        // int f= 5;
+        // if(f==1 || f==2){
+        //     System.out.println(" 0 1 ");
+        // }
+        // int sum = 0,prev=1;
+        // for(int i=1;i<=f;f++){
+        //     sum = sum+ prev;
+        //     prev = sum;
+
+        // }
+
     }
 }
