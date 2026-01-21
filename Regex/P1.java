@@ -38,6 +38,9 @@ public class P1{
         System.out.println("abcd".matches("ab(cd)?"));
         System.out.println("abc".matches("ab(cd)?"));
         System.out.println("ab".matches("ab(cd)?"));
+        System.out.println("");
+
+        
 
         
         
