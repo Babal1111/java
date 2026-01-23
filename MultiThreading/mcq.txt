@@ -1,0 +1,170 @@
+Question 1
+MCQ
+Passed
+Marks:1/1
+MCQ-Activity 1
+
+View Question
+
+Options
+
+Any alphabet
+
+Any digit (0–9)
+
+Any whitespace
+
+Any special character
+Question 2
+MCQ
+Passed
+Marks:1/1
+MCQ-Activity 2
+
+View Question
+
+Options
+
++
+
+?
+
+*
+
+{}
+Question 3
+MCQ
+Passed
+Marks:1/1
+MCQ-Activity 3
+
+View Question
+
+Options
+
+Any string containing uppercase letters
+
+ A string that starts with uppercase letters
+
+ A string consisting of only uppercase letters
+
+ A string ending with uppercase letters
+Question 4
+MCQ
+Passed
+Marks:1/1
+MCQ-Activity 4
+
+View Question
+
+Options
+
+\d{10}
+
+[6-9]\d{9}
+
+^[0-9]{9}$
+
+^[1-9]{10}$
+Question 5
+MCQ
+Passed
+Marks:1/1
+MCQ-Activity 5
+
+View Question
+
+Options
+
+A literal dot
+
+Any digit
+
+Only alphabets
+
+Any character except newline
+Question 6
+MCQ
+Passed
+Marks:1/1
+MCQ-Activity 6
+
+View Question
+
+Options
+
+true
+
+false
+
+Compile Time Error
+
+Exception
+Question 7
+MCQ
+Passed
+Marks:1/1
+MCQ-Activity 7
+
+View Question
+
+Options
+
+hello123
+
+@123
+
+hello@
+
+hello@123
+Question 8
+MCQ
+Passed
+Marks:1/1
+MCQ-Activity 8
+
+View Question
+
+Options
+
+true
+
+false
+
+Compile Time Error
+
+Exception
+Question 9
+MCQ
+Passed
+Marks:1/1
+MCQ-Activity 9
+
+View Question
+
+Options
+
+1
+
+2
+
+3
+
+4
+Question 10
+MCQ
+Passed
+Marks:1/1
+MCQ-Activity 10
+
+View Question
+
+Options
+
+true
+
+false
+
+Compile Time Error
+
+Exception
