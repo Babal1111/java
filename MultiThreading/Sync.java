@@ -40,7 +40,7 @@ class MyList2 implements Runnable {
     }
 }
 
-public class Main {
+public class Sync {
     public static void main(String[] args) {
         Spotify spotify = new Spotify();
 
