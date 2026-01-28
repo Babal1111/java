@@ -1,0 +1,53 @@
+Select * /[DISTININCT] Column_name/Expression[ALIAS]FROM table_Name;
+wxpression combination of operator and operatora
+
+Select sal*6 from emp;
+select sal,sal+(sal*10), sal*12 from emp;
+
+alternative name given to a colum or expressiom in the result table
+it can be used with or without AS keyword.
+ALIAS names should be single word or it should be enclosed with in double quotes or we can use underscore if it is having multiple words.
+-- SELECT sal*12 "ANNUAL_SALARY" FROM emp;
+-- SELECT sal*10 AS a FROM emp;
+-- select ename as name, sal*12 as annual, sal*0.30 as incrimentedSal from emp;
+
+DISTININCT
+Dinstinct is a clause which is used to remove duplicated or repeated values from the table
+for Dinstinct clause we can pass col name, or expession as argument
+we can pass distinct clause as the first clause as a fist argument.
+should always be passed as FIRST argument;
+-- SELECT DISTININCT sal,marks from emp;
+-- SELECT sal,DISTININCT marks from emp; THIS IS WRONG always as first arg
+-- SELECT DISTININCT sal,marks from emp; in this it will check combination of both sal, marks both should be equal in a row then only it will give one;
+
+
+SELECT and WHERE are row clause
+
+WHERE
+
+SELECT *[Dinstinct]Column_name/Expression[ALIAS] FROM table_Name;
+executes row by row
+
+// 
+SQL> 
+SQL> 
+
+SQL> select ename , sal*12 from emp where ename = 'ALLEN';
+
+ENAME          SAL*12
+---------- ----------
+ALLEN           19200
+
+SQL> select * , sal*6 as HALF_TERM from emp where sal*12>8000;
+select * , sal*6 as HALF_TERM from emp where sal*12>8000
+         *
+ERROR at line 1:
+ORA-00923: FROM keyword not found where expected
+
+
+SQL> select * , sal*6  from emp where sal*12>8000
+  2  ;
+select * , sal*6  from emp where sal*12>8000
+         *
+ERROR at line 1:
+ORA-00923: FROM keyword not found where expected
