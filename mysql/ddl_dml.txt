@@ -51,3 +51,17 @@ select * , sal*6  from emp where sal*12>8000
          *
 ERROR at line 1:
 ORA-00923: FROM keyword not found where expected
+
+
+#operators 
+Artithmatic op(+-*/);
+relational operator(<>>= <=);
+logical operator(And,or,NOT);
+comparison operator(=,!=,<>);
+special operators(int, not in, between, not between,is not, like, not like);
+subqueru operator(ACC,  ANY, EXISTS, NOT EXISTS);
+concatination op(||);
+
+AND op - it is used when we want to satisgy all the conditions
+
+
