@@ -63,5 +63,12 @@ subqueru operator(ACC,  ANY, EXISTS, NOT EXISTS);
 concatination op(||);
 
 AND op - it is used when we want to satisgy all the conditions
+OR-op used to satisfy any one of the condition
+NOT - negate/inverse am condition, eg: select * from emp where sal >2000 and not job = 'manager';
+    -eg : select * from emp where NOT( job = 'manager' or job ='salesman') and sal*12 <15000 ;
 
+IN - it is a multivalue operator which used to accept multiple values at RHS, similar to equals operator, returns true if it satisfy any one of the values at RHS
 
+NOT IN- similar to in op instead of accepting, it will reject the values
+BETWEEN - in is used whenever we have range of values. it works by including the given range, 
+          we can-not interchange the range of values
