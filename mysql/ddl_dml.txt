@@ -72,3 +72,47 @@ IN - it is a multivalue operator which used to accept multiple values at RHS, si
 NOT IN- similar to in op instead of accepting, it will reject the values
 BETWEEN - in is used whenever we have range of values. it works by including the given range, 
           we can-not interchange the range of values
+
+
+
+like- used to match patterns required in data
+
+1)% 
+--it can accept any number of characters
+--any number of times
+--and no charachter
+
+2)-
+--it can acceot any character but only one character.
+
+-- FUNCTIONS
+1) singlerow function - gives output acc to no of inputs/or number of rows in table;
+-- 250+ singlerow functions eg, length();
+-- select length(ename) from emp; -- this will give length of each name according to row;
+
+2) multiRow function - gives only one input, for diff inputs
+-- only 5 type of multiRow functions - min(), max(),count(),avg(),sum()
+-- select count(ename) from emp; -- gives total no, of names present;
+-- cant pass multiple ags. eg sum(sal,deptno) X, sum(sal),sum(deptno) ;
+-- mulitrow function ignores NULL, count() ignores NULL, doest count;
+-- count(*)-> how many rwcords are there
+-- count(comm)->4, multiRow function ignores null commissions, count(ename)->14 , counts total names present, no null names where there
+-- CANT pass multiRow function in where clause, as WHERE clause works row by row, mulitrow  function executesgroup wise
+-- sum(ename), 0-> as output, pass only numeric data
+-- max(ename), -> WARD, checks lexographicaly
+-- max, min ,count any type of data; count,sum onlu INTEGER/NUMBER 
+-- Only COUNT() take star ie '*' as argument
+ep
+-- HAVING
+-- where applies on data, having is applied on groups
+-- excutes after group by
+
+subquery
+--a query written inside other query
+-- when/why do we use subquary
+                            -- case 1:
+                            -- whenever we have unknow/indirect condition in the question 
+                            -- then we use subquery
+                            -- 
+
+-- 
