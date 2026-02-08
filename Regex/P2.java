@@ -12,6 +12,7 @@ public class P2{
         System.err.println("---------------- \\\\w --------------");
 
         System.out.println("");
+        
         System.out.println("a".matches("\\w"));
         System.out.println("0".matches("\\w"));
         System.out.println("B".matches("\\w"));
