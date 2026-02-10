@@ -12,6 +12,8 @@ public class StringMethods {
 // So this means:
 // “Find every character that matches this pattern and replace it with *.”
 
+//if(!token.startsWith("TOKEN-"))
+
 
 
         message.replaceAll("cat", "dog");
