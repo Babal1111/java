@@ -1,12 +1,42 @@
+public class Solution{
+    public static void main(String[] args) {
 
-public class StBuffer {
+        DischargeSummaryBuilder dsb = new DischargeSummaryBuilder();
+
+        // Add Patient details
+        dsb.addPatientDetails("Ramesh Kumar", 45, "HSP1023");
+
+        // Add Doctor details
+        dsb.addDoctorDetails("Dr. Mehta", "Cardiology");
+
+        // Add Diagnosis
+        dsb.addDiagnosis("Mild heart blockage");
+
+        // Add Medicines
+        dsb.addMedicine("Aspirin", 30);
+        dsb.addMedicine("Atorvastatin", 60);
+
+        // Add Hospital Stay details
+        dsb.addStayDetails(5, 4000);
+
+        // Apply Insurance coverage
+        dsb.applyInsurance(60.0);
+
+        // Add final bill amount
+        dsb.addFinalBill();
+
+        // Print the summary
+        System.out.println(dsb.getSummary());
+    }
+}
+ class DischargeSummaryBuilder {
 
     private StringBuffer summary;
     private int stayCost;
     private double insuranceAmount;
     private double finalAmount;
 
-    public StBuffer() {
+    public DischargeSummaryBuilder() {
         summary = new StringBuffer();
         stayCost = 0;
         insuranceAmount = 0;

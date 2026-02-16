@@ -30,6 +30,15 @@
 
 
 ---
+
+w3.charAt(i) = Character.toUpperCase(...) →
+
+Strings are immutable in Java. You cannot assign to charAt(i).
+
+You must use sb.setCharAt(i, ...)
+
+----
+
  @Override
     public boolean equals(Object obj) {
         if (this == obj) return true;
@@ -46,4 +55,17 @@
 ---
 
 for array its, arr.length;
+
+---
+
+🔎 Quick Comparison
+Feature	LinkedHashSet	LinkedHashMap	TreeSet
+Type	Set	Map	Set
+Maintains insertion order	✅	✅	❌
+Sorted	❌	❌	✅
+Allows duplicates	❌	Keys ❌ / Values ✅	❌
+Time Complexity	O(1)	O(1)	O(log n)
+
+
+--- 
 
